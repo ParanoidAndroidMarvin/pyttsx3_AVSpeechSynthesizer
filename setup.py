@@ -1,4 +1,3 @@
-import platform
 from setuptools import setup
 
 
@@ -16,7 +15,7 @@ with open('README.rst', 'r') as f:
 
 
 setup(
-    name='pyttsx3',
+    name='pyttsx3-av-speech-synthesizer',
     packages=['pyttsx3', 'pyttsx3.drivers'],
     version='2.91',
    description='Text to Speech (TTS) library for Python 3. Works without internet connection or delay. Supports multiple TTS engines, including Sapi5, nsss, and espeak.',
